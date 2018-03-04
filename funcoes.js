@@ -60,7 +60,7 @@ function alphabeticSort(){
 		for(var j =i+1; j <arWords.length; j++ ){
 		
 			if(arWords[i] ==arWords[j]){// caso  ja exista  remove do array
-				arWords.splice(j);
+				arWords.splice(j, 1);
 				break;
 			}
 			
