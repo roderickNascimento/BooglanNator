@@ -1,0 +1,52 @@
+<html>
+	<head>
+		<title>Escrituras de Booglan</title>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+		<script src="funcoes.js"></script>
+		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+	</head>
+	<body >
+		<div class="jumbotron  jumbotron-fluid">
+			<div class="container">
+			<h1 class="display-4">BooglanNator</h1>
+			<p class="lead">Este é um dos testes para validar a lingua dos Booglans</p>
+			</div>
+		</div>
+		<nav class="navbar navbar-expand-lg navbar-light bg-light">
+			<div class="container">
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+			</button>
+		    <div class="collapse navbar-collapse" id="navbarText">
+			 <div class="container">
+				<ul class="navbar-nav mr-auto">
+				  <li class="nav-item active">
+					<button onclick='getPreposition();' class="btn btn-outline-primary">Preposições </button>
+				  </li>
+				  <li class="nav-item">
+					<button onclick='getVerbs();' class="btn btn-outline-primary">Verbos </button>
+				  </li>
+				  <li class="nav-item">
+					<button onclick='alphabeticSort();' class="btn btn-outline-primary">Ordem alfabetica booglan </button>
+				  </li>
+				  <li class="nav-item">
+				   
+					<button onclick='prettyNumbers();' class="btn btn-outline-success">Numeros Bonitos </button>
+				  </li>
+				</ul></div>
+			</div>
+		</nav>
+		<hr>
+		<div class="container">
+			 <div class="form-group row">
+				 <div class="col-xs-12 col-md-6 col-lg-6">
+					<textarea name='texto' id='texto' class="form-control" rows="12" >abacate  aabra  abre</textarea></label>
+				</div>
+				<div id='resultado' class="col-xs-12 col-md-6 col-lg-6 alert alert-warning border-warning" role="alert"><div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
